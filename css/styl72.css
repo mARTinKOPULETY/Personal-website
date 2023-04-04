@@ -1,0 +1,373 @@
+
+/**MOBILE FIRST - responzivní menu -
+*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+  }
+  #centrovac {
+    margin: 0 auto;
+    max-width: 960px;  
+    padding: 0 0 60px 0;
+}
+body {
+    min-height: 100vh;
+    text-align: center;
+  min-width:254px;
+  font: 14px "Poppins";
+  background-color: none;
+  position: relative;
+  padding-bottom: 0; 
+  background: rgb(230, 231, 227);
+  
+}
+body > header{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top:0;
+    height: 50px;
+    width: 100%;
+    background: black;
+    z-index:1;
+}
+section{  
+    text-align: center;    
+}
+p{
+    margin:15px;   
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+  color: #0a294b;
+}
+article {
+    text-align: left;
+ /*background: rgb(230, 231, 227);*/
+ background: rgb(240, 236, 236);  
+}
+section h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold; 
+    text-transform: uppercase;
+    width: max-content;
+}
+section h2{
+    font-size: 2em;  
+}
+section div h3{
+    text-align: center;
+    font-size: 2.2em;
+}
+article h1, h2, h4, h5, h6 {
+	padding: 10px 0;
+	color: #102e52;
+    
+    
+    width: max-content;
+}
+section article  {
+    margin:0;
+}
+section article p{
+    margin-bottom: 1.5em;
+    line-height:1.8em;
+}
+article section a {
+    color: rgb(215, 224, 182);
+}
+
+/*lišta od menu*/
+.lista{
+    flex-direction: row;
+    display:flex;
+    width:100%;
+}
+.prvni{
+    display:none;
+}
+.druhy{
+    width:20%;
+   
+}
+.treti{
+    text-align: left;
+width:80%;
+}
+/*konec lišty*/
+/*MENU tlačítko*/
+.dropbtn {
+background-image: url("../images/menu48x48.png" )  ;
+  background-color:black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 48px;
+  width:50px;
+  margin: 0 0 0 10px;
+}
+.show {display: block;}
+/*konecMENU tlačítka*/
+/*LOGO*/
+#logo > * {
+    margin: 6px 0 -7px 7px;  
+  color: rgb(230, 231, 227);
+}
+#logo{
+  /**/  margin: 0 ;
+}
+#logo h1 {
+    font-weight:normal;
+    font-size: 1.5em;
+    line-height:1.2em;
+   
+}
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#logo small{
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+/*konec LOGO*/
+
+/*navigace*/
+nav ul{
+    
+    margin:0px 0 -53px 0px ;
+    height:100%;
+    list-style-type: none;
+    display: none;
+    min-width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ 
+}
+nav ul li{
+   
+    padding: 0;
+    margin: 0 px;
+    font-size:  1em;
+    text-align: center;
+}
+nav ul a {
+
+    height: 2em;
+    background: rgb(230, 231, 227);
+    color: black;
+    padding: px 13px;
+    text-decoration: none;
+    display: block;
+  ;
+}
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid rgb(215, 224, 182);
+
+}
+
+/*konec navigace*/
+
+
+
+/*začátek obsahu článků*/
+.container{
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+    margin: 15px 0 50px 0 ;
+    
+      
+}
+.left, .center, .right{
+    height: 300px;
+    background: rgb(240, 236, 236);
+    border: 10px solid rgb(230, 231, 227);
+   /* hezká barva background: rgb(215, 224, 182); */
+}
+.right{
+    margin: 0 0 50px 0;
+}
+/*konec obsahu článků*/
+section{
+    margin:50px 0 0 0 ;
+    padding:0 20px;
+    text-align: center;  
+}
+section img{  
+    width: 150px;
+ filter: grayscale(1);
+    margin: 0  15px;
+    float: none;   
+}
+section span img{  
+    width:initial;
+    margin:15px;
+    float: none;    
+}
+footer{   
+    
+    position: absolute;
+   bottom: 0;
+    width: 100%;
+    color: white;
+    background:black;
+    padding: 30px 0 10px 0;    
+    clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%); 
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+iframe{
+    display: none;
+} 
+.hideFloat{
+    float:left;
+
+}
+.view{
+        display:contents;
+    }   
+
+.centrovany{
+        text-align: center;
+    }
+section article img{
+        filter:grayscale(0);
+}
+.hide{
+    display: none;
+}
+@media only screen and (min-width: 387px) {
+    
+    .hide, .view{
+        display:none;
+    } 
+    
+    }
+@media only screen and (min-width: 516px) {
+
+  iframe{
+        display:initial;
+        text-align: center ;  
+    }
+    .hide{
+        display:contents;
+    } 
+    .view{
+        display:none;
+    } 
+}
+@media only screen and (min-width: 913px) {
+  
+
+   .container{
+      
+      max-width: 930px;
+       margin:10px 0 0 0 ;
+       flex-direction: row;
+   }
+   .left, .right, .center{
+    flex-direction: row;
+       width: 33.333%;
+   }
+   .dropbtn {
+    display: none;
+    }
+    body > header{
+      margin:0;
+ 
+    height: 100px;
+     }
+     section{
+        text-align: left;
+        margin:120px 0 0  0 ;
+        padding:0 20px;   
+        padding-bottom: 30px;  
+    }
+    section img{
+      float: right;
+       width: initial;  
+    }
+     .lista{
+         display: flex;      
+     }
+     .prvni{      
+       display: flex;
+        justify-content: right;
+        align-items: center;     
+         order:-1;
+        width:15%;            
+    }
+    .druhy{
+        display: flex;
+        width:50%;       
+        justify-content: left;
+        align-items: center;      
+    }
+    .treti{
+     order:-1;
+        width:35%;  
+     }
+       .dropdown-content {
+        display: flex;               
+        min-width:180px;  
+        z-index: 1;
+       
+      }
+    #logo > * {
+        margin: 6px 0 -7px 7px;  
+    }
+    #logo{
+        margin: 25px 0  0 ;
+    }
+      nav ul{
+        margin:0px 0 0 0px;
+        height: 100%;
+        align-items: center;
+        list-style-type: none;
+        display: flex;       
+    }
+    nav ul li{
+        padding:0 ;
+        margin: 0 5px;
+        font-size:  1em;     
+        box-shadow:none;
+    }
+    nav ul a {
+        background: black;      
+        padding: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(230, 231, 227);
+        border-bottom:none;
+    }
+    nav ul a:hover  {       
+        border-bottom: 3px solid rgb(215, 224, 182);
+    }
+.aktivni {
+    border-bottom:  5px solid rgb(215, 224, 182);
+}   
+} 
+

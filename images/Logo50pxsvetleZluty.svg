@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.0px"
+   height="50.0px"
+   viewBox="0 0 50.0 50.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Logo50pxsvetleZluty.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="11.573962"
+     inkscape:cx="8.6832842"
+     inkscape:cy="24.667439"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid20" />
+  </sodipodi:namedview>
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1268"
+       transform="matrix(0.88641976,0,0,0.8691358,5.2716048,4.962963)"
+       style="stroke:#fffff6;stroke-opacity:1">
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 20,25 V 15 l -5,-5 v 5 l 5,5 h 10 l 5,-5 h -5 l -5,5 v 10 l 5,5 V 30 L 25,25 H 15 l -5,5 h 5 z"
+         id="path893" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 20,15 25,-5 5,15"
+         id="path895" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 30,20 5,25 -15,5"
+         id="path901" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 15,25 10,0 25,-5"
+         id="path903" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 25,30 0,35 -5,20"
+         id="path905" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 10,30 5,5 10,0"
+         id="path907" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 45,10 40,5 15,10"
+         id="path909" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 30,35 C 29,35 5,40 5,40 L 0,35"
+         id="path911" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 35,15 5,25 -5,5"
+         id="path913" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 50,25 39,35"
+         id="path1028" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 20,50 10,39"
+         id="path1030" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M -5,20 6,10"
+         id="path1032" />
+      <path
+         style="fill:none;stroke:#fffff6;stroke-width:0.953463;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 25,-5 36,5"
+         id="path1034" />
+    </g>
+  </g>
+</svg>
